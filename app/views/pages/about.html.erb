@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alpha-blog/about</title>
+   <style>
+        h1, h4 {
+        	text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+        }
+        .block {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+		<h1>Bienvenue dans About</h1>
+		<h4><%= link_to "Aller dans Home", root_path %></h4>
+    <header>
+        <img src="https://via.placeholder.com/800x200" alt="Image de header">
+    </header>
+
+    <div class="content">
+        <div class="block">
+            <h2>Bloc de texte 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Sed accumsan leo nec justo facilisis, in lacinia odio ornare. Nullam fermentum.</p>
+        </div>
+        <div class="block">
+            <h2>Bloc de texte 2</h2>
+            <p>Phasellus vitae orci ac nisl eleifend tempus. Ut in purus non magna placerat pharetra. Curabitur lacinia, mauris ac posuere dictum, est erat condimentum nisi, a laoreet massa elit id purus. Donec in est purus. Duis convallis, lorem ut bibendum tempus.</p>
+        </div>
+    </div>
+</body>
+</html>
